@@ -1,1 +1,13 @@
 // app global css in SCSS form
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.bg-gradient {
+  background: linear-gradient(151.17deg, #26c2b9 8.69%, #288be7 126.06%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color-burn;
+}
