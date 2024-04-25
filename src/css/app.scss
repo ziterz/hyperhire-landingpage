@@ -5,11 +5,6 @@ body {
   font-style: normal;
 }
 
-.container {
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
 .bg-gradient {
   background: linear-gradient(151.17deg, #26c2b9 8.69%, #288be7 126.06%);
   background-position: center;
@@ -54,4 +49,57 @@ body {
 
 .text-color-8 {
   color: #40e2e8;
+}
+
+footer {
+  background-color: #fbfbfb;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    padding: 64px 16px;
+  }
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.col-span-4 {
+  grid-column: span 4 / span 4;
+}
+
+.col-span-12 {
+  grid-column: span 12 / span 12;
+}
+
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
+.col-span-3 {
+  grid-column: span 3 / span 3;
+}
+
+.col-span-6 {
+  grid-column: span 6 / span 6;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
 }
