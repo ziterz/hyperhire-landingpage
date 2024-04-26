@@ -11,11 +11,10 @@
     }"
     @swiper="onSwiper"
     style="padding: 0px 78px; margin-top: 60px"
-    :slides-per-view="4"
+    :slides-per-view="5"
     :space-between="10"
-    options
   >
-    <swiper-slide>
+    <swiper-slide style="width: 293.556px; margin-right: 10px">
       <div
         class="flex items-center justify-center"
         style="
@@ -44,7 +43,7 @@
       </div>
       <div style="font-size: 24px">해외 마케팅</div>
     </swiper-slide>
-    <swiper-slide>
+    <swiper-slide style="width: 293.556px; margin-right: 10px">
       <div
         class="flex items-center justify-center"
         style="
@@ -73,7 +72,7 @@
       </div>
       <div style="font-size: 24px">퍼블리셔</div>
     </swiper-slide>
-    <swiper-slide>
+    <swiper-slide style="width: 293.556px; margin-right: 10px">
       <div
         class="flex items-center justify-center"
         style="
@@ -117,7 +116,7 @@
       </div>
       <div style="font-size: 24px">캐드원(제도사)</div>
     </swiper-slide>
-    <swiper-slide>
+    <swiper-slide style="width: 293.556px; margin-right: 10px">
       <div
         class="flex items-center justify-center"
         style="
@@ -146,7 +145,7 @@
       </div>
       <div style="font-size: 24px">해외 세일즈</div>
     </swiper-slide>
-    <swiper-slide>
+    <swiper-slide style="width: 293.556px; margin-right: 10px">
       <div
         class="flex items-center justify-center"
         style="
@@ -179,7 +178,7 @@
       </div>
       <div style="font-size: 24px">해외 CS</div>
     </swiper-slide>
-    <swiper-slide>
+    <swiper-slide style="width: 293.556px; margin-right: 10px">
       <div
         class="flex items-center justify-center"
         style="
