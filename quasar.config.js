@@ -87,11 +87,7 @@ module.exports = configure(function (/* ctx */) {
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#framework
     framework: {
-      config: {
-        screen: {
-          bodyClasses: true,
-        },
-      },
+      config: {},
 
       // iconSet: 'material-icons', // Quasar icon set
       // lang: 'en-US', // Quasar language pack
@@ -109,7 +105,7 @@ module.exports = configure(function (/* ctx */) {
 
     // animations: 'all', // --- includes all animations
     // https://v2.quasar.dev/options/animations
-    animations: [],
+    animations: ['fadeInUp', 'fadeIn'],
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#sourcefiles
     // sourceFiles: {
